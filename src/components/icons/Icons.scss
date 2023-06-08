@@ -1,0 +1,12 @@
+@import 'src/_vars.scss';
+
+.Icon {
+  width: 22px;
+  height: 22px;
+  fill: $color-gray-darker;
+}
+
+.Icon > path {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+}

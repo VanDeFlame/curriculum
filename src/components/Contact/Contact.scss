@@ -1,0 +1,31 @@
+@import 'src/_vars.scss';
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  text-align: end;
+}
+
+.Contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.Contact-item > svg {
+  fill: $text-color;
+  width: 18px;
+}
+
+.Contact-item-info {
+  margin-right: 4px;
+}
+
+.Contact-item-info:hover {
+  color: $text-color-hover;
+}
+
+.Contact-item.phone > .Contact-item-info {
+  font-family: sans-serif;
+}

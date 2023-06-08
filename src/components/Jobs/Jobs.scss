@@ -1,0 +1,42 @@
+@import 'src/_vars.scss';
+
+.Jobs-title {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.Jobs-experience:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.Jobs-experience-position {
+  margin-bottom: 4px;
+  font-size: 1.6rem;
+}
+
+.Jobs-experience-container {
+  display: flex;
+  width: fit-content;
+  padding-bottom: 4px;
+  border-bottom: 4px solid $color-gray-darker;
+}
+
+.Jobs-experience-company {
+  margin-right: 8px; 
+}
+
+.Jobs-experience-date {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  font-size: 1.4rem;  
+}
+
+.Jobs-experience-date > .date_separator {
+  margin: 0 4px;
+}
+
+.Jobs-experience-info {
+  margin: 4px 0 8px;
+  text-align: justify;
+}

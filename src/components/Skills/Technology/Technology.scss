@@ -1,0 +1,17 @@
+.Technology {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.Technology > img {
+  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+}
+
+.Technology > span {
+  margin-left: 8px;
+}

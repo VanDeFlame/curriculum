@@ -1,0 +1,64 @@
+{
+  "languages": [
+    {
+      "id": "spa",
+      "name": "Spanish",
+      "level": "Native"
+    },
+    {
+      "id": "eng",
+      "name": "English",
+      "level": "B1"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "html",
+      "name": "HTML"
+    },
+    {
+      "id": "css",
+      "name": "CSS"
+    },
+    {
+      "id": "js",
+      "name": "JavaScript"
+    },
+    {
+      "id": "ts",
+      "name": "TypeScript"
+    },
+    {
+      "id": "sass",
+      "name": "SASS"
+    },
+    {
+      "id": "node",
+      "name": "NodeJS"
+    },
+    {
+      "id": "react",
+      "name": "ReactJS"
+    },
+    {
+      "id": "git",
+      "name": "Git"
+    },
+    {
+      "id": "linux",
+      "name": "Bash"
+    },
+    {
+      "id": "java",
+      "name": "Java"
+    },
+    {
+      "id": "springboot",
+      "name": "Spring Boot"
+    },
+    {
+      "id": "mysql",
+      "name": "MySQL"
+    }
+  ]
+}

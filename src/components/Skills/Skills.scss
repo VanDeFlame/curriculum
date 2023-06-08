@@ -1,0 +1,53 @@
+@import 'src/_vars.scss';
+
+.Skills {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: max-content max-content max-content;
+  row-gap: 8px;
+  column-gap: 8px;
+}
+
+.Skills-title {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  text-align: center;
+}
+
+.Skills-category > h3 {
+  width: 200px;
+  padding-bottom: 8px;
+  margin: 0 auto 12px;
+  border-bottom: 4px solid $color-gray-darker;
+  text-align: center;
+}
+
+.Skills-category-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Skills > .category_technologies {
+  grid-column: 1;
+  grid-row: 2 / span 3;
+}
+
+.Skills > .category_languages {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.Skills > .category_team {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.Team {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 200px;
+  padding: 8px;
+  font-weight: bold;
+}

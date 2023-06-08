@@ -1,0 +1,112 @@
+@import 'src/_vars.scss';
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1500px;
+  min-height: 100vh;
+  margin: 0 auto;
+  color: $text-color;
+}
+
+.Curriculum {
+  display: flex;
+  // justify-content: center;
+  margin: 20px auto;
+}
+
+.CV {
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto max-content max-content max-content 1fr;
+  row-gap: 32px;
+  width: 792px;
+  min-width: 792px;
+  min-height: 1120px;
+  padding: 60px;
+  font-size: 1.8rem;
+  word-spacing: normal;
+  color: $text-color;
+  background-color: $color-gray-dark;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.CV > div {
+  z-index: 5;
+}
+
+.CV-bg {
+  position: absolute;
+  top: 0;
+  bottom: 21px;
+  right: -93px;
+  left: -124px;
+  border-radius: 90% 0 100% 61%;
+  // clip-path: polygon(124px 0, 916px 0, 916px 100%, 124px 100%);
+  background-color: $color-gray;
+}
+
+/* I AM */
+
+.CV-Iam {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: fit-content;
+}
+
+.CV-Iam-name {
+  text-align: left;  
+}
+
+.CV-Iam-nickname {
+  text-align: center;
+  font-size: 44px;
+  line-height: 44px;
+}
+
+.CV-Iam-area {
+  text-align: right;
+}
+
+/* Contact */
+
+.Contact {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+/* Profile */
+
+.CV-Profile {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+
+.CV-Profile-title {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.CV-Profile-description {
+  text-align: justify;
+}
+
+/* Jobs */
+
+.Jobs {
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}
+
+/* Skills */
+
+.Skills {
+  grid-column: 1 / span 2;
+  grid-row: 4;
+}
